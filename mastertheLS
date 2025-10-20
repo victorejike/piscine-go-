@@ -1,0 +1,1 @@
+ls -ltu --time=atime --indicator-style=slash --format=single-column | grep -v '^\.' | paste -sd,
